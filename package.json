@@ -1,0 +1,17 @@
+{
+  "name": "fundsroom-erp",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace frontend",
+    "api": "npm run api --workspace backend",
+    "seed": "npm run seed --workspace backend",
+    "test": "npm test --workspace backend",
+    "build": "npm run build --workspace frontend",
+    "lint": "npm run lint --workspace frontend"
+  }
+}
